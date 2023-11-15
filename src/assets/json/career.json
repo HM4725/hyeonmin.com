@@ -1,0 +1,48 @@
+[
+  {
+    "period": "2022.07 ~ 2023.11",
+    "company": "(주)노이랩",
+    "link": "https://noilab.kr",
+    "logoSrc": "https://data.hyeonmin.com/img/noi-logo.png",
+    "incharge": "개발팀장",
+    "role": [
+      "스포츠 인지 훈련용 웹 어플리케이션 개발",
+      "전체적인 개발 프로세스 관리"
+    ],
+    "skillset": "Vue.js, Nuxt.js, Node.js, FastAPI, aws, Firebase"
+  },
+  {
+    "period": "2020.03 ~ 2021.09",
+    "company": "해병대사령부",
+    "link": "https://www.rokmc.mil.kr:10005/index.do",
+    "logoSrc": "https://data.hyeonmin.com/img/rokmc-logo.jpeg",
+    "incharge": "소프트웨어개발병",
+    "role": [
+      "해병대사령부 웹사이트 유지보수",
+      "해병대 예하부대 웹사이트 개발 (양성평등센터, 항공단)",
+      "해병대사령부 LAN 관리"
+    ],
+    "skillset": "HTML, CSS, JS, JQuery"
+  },
+  {
+    "period": "2019.07 ~ 2019.12",
+    "company": "(주)라이언로켓",
+    "link": "https://www.lionrocket.ai/",
+    "logoSrc": "https://data.hyeonmin.com/img/lionrocket-logo.jpeg",
+    "incharge": "머신러닝팀 인턴",
+    "role": ["다중화자/다중언어 TTS 모델 개발"],
+    "skillset": "Python, PyTorch, Pandas"
+  },
+  {
+    "period": "2018.04 ~ 2018.10",
+    "company": "한양대학교 컴퓨터보안연구실",
+    "link": "http://securitylab.hanyang.ac.kr/wiki/index.php/Main",
+    "logoSrc": "https://data.hyeonmin.com/img/hanyang-uni-logo.jpeg",
+    "incharge": "인턴",
+    "role": [
+      "하드웨어를 활용한 실행코드 은닉 기법 조사 및 구현",
+      "DBI를 이용한 안티리버싱 코드 식별 방안 연구"
+    ],
+    "skillset": "C, Assembly"
+  }
+]

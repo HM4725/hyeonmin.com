@@ -1,0 +1,33 @@
+.smooth-image-transition {
+  -webkit-transition: background-image 1s ease-out;
+  -moz-transition: background-size 1s ease-out;
+  transition: background-image 1s ease-out;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.keep-word {
+  word-break: keep-all;
+}
+.card.elevation-0 {
+  box-shadow: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page-screen {
+  width: 100%;
+  aspect-ratio: 55/36;
+}
+.brand .n-logo {
+  width: 100px;
+  aspect-ratio: 39/28;
+  margin-bottom: 40px;
+}
+.brand .h1-seo {
+  font-size: 2.8em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
