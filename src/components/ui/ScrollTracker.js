@@ -4,7 +4,6 @@ import { Progress } from "reactstrap";
 function ScrollTracker(props) {
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
-    const pageHeight = document.body.scrollHeight;
     const onScroll = () => {
       const winScroll = document.documentElement.scrollTop;
       const height =
