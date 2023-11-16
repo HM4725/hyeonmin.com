@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // reactstrap components
 import {
@@ -34,8 +34,8 @@ import outsourcing from "../assets/json/outsourcing.json";
 import awards from "../assets/json/awards.json";
 
 function ProfilePage() {
-  const [modal, setModal] = useState(false);
-  const [modalImageSrc, setModalImageSrc] = useState("");
+  const [modal, setModal] = React.useState(false);
+  const [modalImageSrc, setModalImageSrc] = React.useState("");
 
   const toggleAwardModal = (idx) => {
     modal || setModalImageSrc(awards[idx].imageSrc);
@@ -180,7 +180,10 @@ function ProfilePage() {
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center">
-                  경력사항 <Badge color="default" pill>{career.length}</Badge>
+                  경력사항{" "}
+                  <Badge color="default" pill>
+                    {career.length}
+                  </Badge>
                 </CardTitle>
                 {career.map((job, idx) => (
                   <article key={idx} className="mb-4">
@@ -251,7 +254,10 @@ function ProfilePage() {
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center">
-                  프로젝트 <Badge color="default" pill>{projects.length}</Badge>
+                  프로젝트{" "}
+                  <Badge color="default" pill>
+                    {projects.length}
+                  </Badge>
                 </CardTitle>
                 {projects.map((project, idx) => (
                   <article key={idx} className="mb-4">
@@ -315,7 +321,10 @@ function ProfilePage() {
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center">
-                  외주 <Badge color="default" pill>{outsourcing.length}</Badge>
+                  외주{" "}
+                  <Badge color="default" pill>
+                    {outsourcing.length}
+                  </Badge>
                 </CardTitle>
                 {outsourcing.map((job, idx) => (
                   <article key={idx} className="mb-4">
@@ -396,7 +405,10 @@ function ProfilePage() {
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center">
-                  수상경력 <Badge color="default" pill>{awards.length}</Badge>
+                  수상경력{" "}
+                  <Badge color="default" pill>
+                    {awards.length}
+                  </Badge>
                 </CardTitle>
                 {awards.map((award, idx) => (
                   <article key={idx} className="mb-4">
