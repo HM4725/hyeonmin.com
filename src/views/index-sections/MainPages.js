@@ -16,35 +16,42 @@ import {
 
 // custom components
 import LazyImage from "components/ui/LazyImage";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function MainPages() {
   const pages = [
     {
       title: "Profile",
-      description: "저에 대해 소개할게요.",
+      description: "저에 대해 소개드리겠습니다.",
       src: "https://data.hyeonmin.com/img/page-profile.png",
       placeholder: "https://data.hyeonmin.com/img/page-profile-placeholder.png",
       url: "/profile",
     },
     {
       title: "Article",
-      description: "컴퓨터 관련 주제로 저의 생각을 적어보았어요.",
+      description: "컴퓨터 관련 주제로 저의 생각을 적어보았습니다.",
       src: "https://data.hyeonmin.com/img/page-article.png",
       placeholder: "https://data.hyeonmin.com/img/page-article-placeholder.png",
       url: "/article/aws",
     },
     {
       title: "Education",
-      description: "함께 코딩을 공부해봐요.",
+      description: "저의 교육 철학을 바탕으로 수업을 준비해보았습니다.",
       src: "https://data.hyeonmin.com/img/page-education.png",
       placeholder:
         "https://data.hyeonmin.com/img/page-education-placeholder.png",
       url: "/education/python",
     },
   ];
+
+  React.useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <section className="section section-full-screen d-flex align-items-center">
-      <Container className="mt-4">
+      <Container className="mt-4" data-aos="fade-up" data-aos-duration="1000">
         <Row>
           <Col>
             <h3 className="title text-center">Index</h3>

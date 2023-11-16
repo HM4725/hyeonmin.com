@@ -1,9 +1,5 @@
 import React from "react";
 
-// reactstrap components
-// import {
-// } from "reactstrap";
-
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
@@ -11,8 +7,8 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import MainPages from "./index-sections/MainPages.js";
-import SignUp from "./index-sections/SignUp.js";
-import Examples from "./index-sections/Examples.js";
+import Letter from "./index-sections/Letter.js";
+import LifeQuotes from "./index-sections/LifeQuotes.js";
 
 function Index() {
   React.useEffect(() => {
@@ -33,8 +29,8 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <MainPages />
-          <SignUp />
-          <Examples />
+          <Letter />
+          <LifeQuotes />
         </div>
         <DarkFooter />
       </div>

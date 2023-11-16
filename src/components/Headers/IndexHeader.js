@@ -24,7 +24,7 @@ function IndexHeader() {
               src="https://data.hyeonmin.com/img/hyeonmin-logo.png"
             ></img>
             <h1 className="h1-seo">HOME</h1>
-            <h3 className="h3 font-weight-300">All we need is a reason.</h3>
+            <h3 className="h3 font-weight-300">Boys, Be Ambitious!</h3>
           </div>
         </Container>
       </div>
