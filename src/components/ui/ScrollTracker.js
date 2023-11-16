@@ -11,6 +11,7 @@ function ScrollTracker(props) {
         document.documentElement.clientHeight;
       const scrolled = (winScroll / height) * 100;
       setScrollY(scrolled);
+      console.log(scrolled);
     };
     window.addEventListener("scroll", onScroll, true);
     return () => window.removeEventListener("scroll", onScroll);
@@ -19,9 +20,8 @@ function ScrollTracker(props) {
     <Progress
       {...props}
       value={scrollY}
-      style={{
-        height: "3px",
-      }}
+      style={{ height: "3px" }}
+      barStyle={{ transition: "none" }}
     />
   );
 }
