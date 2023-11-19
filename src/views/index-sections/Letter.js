@@ -33,7 +33,7 @@ function Letter() {
         <Container>
           <Row>
             <Card
-              className="card-signup"
+              className="card-signup d-none"
               data-background-color="black"
               data-aos="fade-up"
               data-aos-duration="1000"

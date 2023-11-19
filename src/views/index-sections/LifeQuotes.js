@@ -14,12 +14,7 @@ function LifeQuotes() {
   return (
     <>
       <div className="section section-examples" data-background-color="black">
-        <div className="space-50"></div>
-        <Container
-          className="text-center"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <Container className="text-center">
           <blockquote
             className="blockquote text-center mx-auto"
             style={{ maxWidth: 700 }}
