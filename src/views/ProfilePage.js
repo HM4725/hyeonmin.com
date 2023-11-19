@@ -450,6 +450,16 @@ function ProfilePage() {
                           </th>
                           <td>{award.host}</td>
                         </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            아이템
+                          </th>
+                          <td>{award.item}</td>
+                        </tr>
                       </tbody>
                     </Table>
                   </article>
