@@ -92,7 +92,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   자기소개
                 </CardTitle>
                 <CardText className="keep-word font-weight-normal">
@@ -111,7 +111,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   학력
                 </CardTitle>
 
@@ -179,7 +179,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   경력사항{" "}
                   <Badge color="default" pill>
                     {career.length}
@@ -253,7 +253,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   프로젝트{" "}
                   <Badge color="default" pill>
                     {projects.length}
@@ -320,7 +320,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   외주{" "}
                   <Badge color="default" pill>
                     {outsourcing.length}
@@ -404,7 +404,7 @@ function ProfilePage() {
               className="elevation-0 my-4"
             >
               <CardBody>
-                <CardTitle tag="h3" className="text-center">
+                <CardTitle tag="h3" className="text-center font-weight-bold">
                   수상경력{" "}
                   <Badge color="default" pill>
                     {awards.length}
