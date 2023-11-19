@@ -138,7 +138,7 @@ function ProfilePage() {
                     <tr>
                       <th
                         scope="row"
-                        width={100}
+                        width={80}
                         className="font-weight-normal"
                       >
                         전공
@@ -148,7 +148,7 @@ function ProfilePage() {
                     <tr>
                       <th
                         scope="row"
-                        width={100}
+                        width={80}
                         className="font-weight-normal"
                       >
                         평점
@@ -158,7 +158,7 @@ function ProfilePage() {
                     <tr>
                       <th
                         scope="row"
-                        width={100}
+                        width={80}
                         className="font-weight-normal"
                       >
                         교과과정
@@ -207,7 +207,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             담당
@@ -217,7 +217,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             역할
@@ -233,7 +233,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             사용기술
@@ -281,7 +281,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             주관
@@ -291,7 +291,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             설명
@@ -301,7 +301,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             사용기술
@@ -348,7 +348,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             요청
@@ -358,7 +358,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             담당
@@ -368,7 +368,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             역할
@@ -384,7 +384,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             사용기술
@@ -433,7 +433,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             수상
@@ -443,7 +443,7 @@ function ProfilePage() {
                         <tr>
                           <th
                             scope="row"
-                            width={100}
+                            width={80}
                             className="font-weight-normal"
                           >
                             주관
