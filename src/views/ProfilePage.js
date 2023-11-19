@@ -15,7 +15,7 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
-  Badge
+  Badge,
 } from "reactstrap";
 
 // core components
@@ -87,12 +87,16 @@ function ProfilePage() {
             </div>
 
             <Card
+              id="introduction"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   자기소개
                 </CardTitle>
                 <CardText className="keep-word font-weight-normal">
@@ -106,12 +110,16 @@ function ProfilePage() {
             </Card>
 
             <Card
+              id="education"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   학력
                 </CardTitle>
 
@@ -136,31 +144,19 @@ function ProfilePage() {
                 <Table>
                   <tbody>
                     <tr>
-                      <th
-                        scope="row"
-                        width={80}
-                        className="font-weight-normal"
-                      >
+                      <th scope="row" width={80} className="font-weight-normal">
                         전공
                       </th>
                       <td>컴퓨터소프트웨어학부</td>
                     </tr>
                     <tr>
-                      <th
-                        scope="row"
-                        width={80}
-                        className="font-weight-normal"
-                      >
+                      <th scope="row" width={80} className="font-weight-normal">
                         평점
                       </th>
                       <td>4.02 / 4.5</td>
                     </tr>
                     <tr>
-                      <th
-                        scope="row"
-                        width={80}
-                        className="font-weight-normal"
-                      >
+                      <th scope="row" width={80} className="font-weight-normal">
                         교과과정
                       </th>
                       <td className="keep-word">
@@ -174,12 +170,16 @@ function ProfilePage() {
             </Card>
 
             <Card
+              id="career"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   경력사항{" "}
                   <Badge color="default" pill>
                     {career.length}
@@ -248,12 +248,16 @@ function ProfilePage() {
             </Card>
 
             <Card
+              id="project"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   프로젝트{" "}
                   <Badge color="default" pill>
                     {projects.length}
@@ -314,13 +318,18 @@ function ProfilePage() {
                 ))}
               </CardBody>
             </Card>
+
             <Card
+              id="outsourcing"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   외주{" "}
                   <Badge color="default" pill>
                     {outsourcing.length}
@@ -399,12 +408,16 @@ function ProfilePage() {
             </Card>
 
             <Card
+              id="award"
               data-aos="fade-up"
               data-aos-duration="1000"
               className="elevation-0 my-4"
             >
               <CardBody>
                 <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
                   수상경력{" "}
                   <Badge color="default" pill>
                     {awards.length}
