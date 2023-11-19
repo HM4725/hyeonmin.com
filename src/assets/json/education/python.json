@@ -1,0 +1,30 @@
+[
+  {
+    "chapter": 0,
+    "title": "기초 문법",
+    "pdf": "https://data.hyeonmin.com/class/python/pdf/ch0.pdf",
+    "code": "https://data.hyeonmin.com/class/python/src/ch0.zip",
+    "uploaded": "2023-10-28"
+  },
+  {
+    "chapter": 1,
+    "title": "모듈과 클래스",
+    "pdf": "https://data.hyeonmin.com/class/python/pdf/ch1.pdf",
+    "code": "https://data.hyeonmin.com/class/python/src/ch1.zip",
+    "uploaded": "2023-11-11"
+  },
+  {
+    "chapter": 2,
+    "title": "데이터 다루기",
+    "pdf": "",
+    "code": "",
+    "uploaded": "예정"
+  },
+  {
+    "chapter": 3,
+    "title": "Pandas 라이브러리",
+    "pdf": "",
+    "code": "",
+    "uploaded": "예정"
+  }
+]

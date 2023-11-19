@@ -8,23 +8,10 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import SubPageHeader from "components/Headers/SubPageHeader";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 
+// JSON
+import classes from "../../assets/json/education/python.json";
+
 function PythonPage() {
-  const classes = [
-    {
-      chapter: 0,
-      title: "기초 문법",
-      pdf: "https://data.hyeonmin.com/class/python/pdf/ch0.pdf",
-      code: "https://data.hyeonmin.com/class/python/src/ch0.zip",
-      uploaded: "2023-10-28",
-    },
-    {
-      chapter: 1,
-      title: "모듈과 클래스",
-      pdf: "https://data.hyeonmin.com/class/python/pdf/ch1.pdf",
-      code: "https://data.hyeonmin.com/class/python/src/ch1.zip",
-      uploaded: "2023-11-11",
-    },
-  ];
   React.useEffect(() => {
     document.documentElement.classList.remove("nav-open");
     document.body.classList.add("sidebar-collapse");
@@ -68,30 +55,60 @@ function PythonPage() {
                     </th>
                     <td className="align-middle">{cls.title}</td>
                     <td className="align-middle">
-                      <Button
-                        className="d-inline-flex align-items-center"
-                        size="sm"
-                        href={cls.pdf}
-                        target="_blank"
-                      >
-                        <span className="d-none d-sm-inline mr-1">
-                          download
-                        </span>
-                        <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                      </Button>
+                      {cls.pdf.length > 0 ? (
+                        <Button
+                          className="d-inline-flex align-items-center"
+                          size="sm"
+                          href={cls.pdf}
+                          target="_blank"
+                          disabled={cls.pdf.length === 0}
+                        >
+                          <span className="d-none d-sm-inline mr-1">
+                            download
+                          </span>
+                          <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                        </Button>
+                      ) : (
+                        <a
+                          href="/dummy-link/jsx-a11y/anchor-is-valid"
+                          class="btn btn-secondary btn-sm disabled"
+                          role="button"
+                          aria-disabled="true"
+                        >
+                          <span className="d-none d-sm-inline mr-1">
+                            download
+                          </span>
+                          <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                        </a>
+                      )}
                     </td>
                     <td className="align-middle d-none d-lg-table-cell">
-                      <Button
-                        className="d-inline-flex align-items-center"
-                        size="sm"
-                        href={cls.code}
-                        target="_blank"
-                      >
-                        <span className="d-none d-sm-inline mr-1">
-                          download
-                        </span>
-                        <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                      </Button>
+                      {cls.code.length > 0 ? (
+                        <Button
+                          className="d-inline-flex align-items-center"
+                          size="sm"
+                          href={cls.code}
+                          target="_blank"
+                          disabled={cls.code.length === 0}
+                        >
+                          <span className="d-none d-sm-inline mr-1">
+                            download
+                          </span>
+                          <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                        </Button>
+                      ) : (
+                        <a
+                          href="/dummy-link/jsx-a11y/anchor-is-valid"
+                          class="btn btn-secondary btn-sm disabled"
+                          role="button"
+                          aria-disabled="true"
+                        >
+                          <span className="d-none d-sm-inline mr-1">
+                            download
+                          </span>
+                          <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                        </a>
+                      )}
                     </td>
                     <td className="align-middle d-none d-lg-table-cell">
                       {cls.uploaded}
