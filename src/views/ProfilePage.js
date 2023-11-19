@@ -70,7 +70,7 @@ function ProfilePage() {
                 className="btn-round mr-1"
                 color="info"
                 size="lg"
-                href="https://careers.hyeonmin.com/v2/architect/resume.pdf"
+                href="https://careers.hyeonmin.com/v3/resume.pdf"
                 target="_blank"
               >
                 Resume
@@ -79,7 +79,7 @@ function ProfilePage() {
                 className="btn-round ml-1"
                 color="info"
                 size="lg"
-                href="https://careers.hyeonmin.com/v2/architect/portfolio.pdf"
+                href="https://careers.hyeonmin.com/v3/portfolio.pdf"
                 target="_blank"
               >
                 Portfolio
