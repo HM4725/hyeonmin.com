@@ -560,7 +560,7 @@ function ProfilePage() {
                             width={80}
                             className="font-weight-normal"
                           >
-                            설명
+                            요약
                           </th>
                           <td className="keep-word">{paper.description}</td>
                         </tr>
