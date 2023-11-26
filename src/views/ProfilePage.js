@@ -32,6 +32,7 @@ import career from "../assets/json/career.json";
 import projects from "../assets/json/projects.json";
 import outsourcing from "../assets/json/outsourcing.json";
 import awards from "../assets/json/awards.json";
+import papers from "../assets/json/papers.json";
 
 function ProfilePage() {
   const [modal, setModal] = React.useState(false);
@@ -497,6 +498,78 @@ function ProfilePage() {
                 <img alt="award" src={modalImageSrc}></img>
               </ModalBody>
             </Modal>
+
+            <Card
+              id="paper"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="elevation-0 my-4"
+            >
+              <CardBody>
+                <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
+                  논문{" "}
+                  <Badge color="default" pill>
+                    {papers.length}
+                  </Badge>
+                </CardTitle>
+                {papers.map((paper, idx) => (
+                  <article key={idx} className="mb-4">
+                    <Row>
+                      <Col xs="auto">
+                        <Button
+                          className="btn-round btn-icon"
+                          href={paper.link}
+                          target="_blank"
+                        >
+                          <img alt="학회_로고" src={paper.logoSrc} />
+                        </Button>
+                      </Col>
+                      <Col className="px-0">
+                        <small>{paper.date}</small>
+                        <CardSubtitle tag="h4">{paper.title}</CardSubtitle>
+                      </Col>
+                    </Row>
+                    <Table>
+                      <tbody>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            학회
+                          </th>
+                          <td>{paper.host}</td>
+                        </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            저자
+                          </th>
+                          <td>{paper.author}</td>
+                        </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            설명
+                          </th>
+                          <td className="keep-word">{paper.description}</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                  </article>
+                ))}
+              </CardBody>
+            </Card>
           </Container>
         </div>
         <DefaultFooter />
