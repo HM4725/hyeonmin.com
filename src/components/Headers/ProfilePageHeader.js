@@ -6,6 +6,10 @@ import { Container, UncontrolledTooltip } from "reactstrap";
 // custom components
 import LazyBackground from "components/ui/LazyBackground";
 
+// json
+import awards from "../../assets/json/awards.json"
+import projects from "../../assets/json/projects.json"
+
 function ProfilePageHeader() {
   return (
     <>
@@ -33,14 +37,14 @@ function ProfilePageHeader() {
               Graduation GPA out of 4.5
             </UncontrolledTooltip>
             <div className="social-description" id="tooltip-career">
-              <h2>4</h2>
-              <p>Career</p>
+              <h2>{projects.length}</h2>
+              <p>Projects</p>
             </div>
             <UncontrolledTooltip delay={0} target="tooltip-career">
-              Years of Work Experience
+              Software Related Projects
             </UncontrolledTooltip>
             <div className="social-description" id="tooltip-awards">
-              <h2>2</h2>
+              <h2>{awards.length}</h2>
               <p>Awards</p>
             </div>
             <UncontrolledTooltip delay={0} target="tooltip-awards">
