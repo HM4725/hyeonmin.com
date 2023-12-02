@@ -17,15 +17,16 @@ function LifeQuotes() {
         <Container className="text-center">
           <blockquote
             className="blockquote text-center mx-auto"
-            style={{ maxWidth: 700 }}
+            style={{ maxWidth: 760 }}
           >
             <p className="mb-0 keep-word">
-              당신이 배를 만들고 싶다면, 사람들에게 목재를 가져오게 하고 일을
-              지시하고 일감을 나눠주는 일을 하지 말라. 대신 그들에게 저 넓고
-              끝없는 바다에 대한 동경심을 키워줘라.
+              God, grant me the <strong>Serenity</strong> to accept the things I
+              cannot change, <br />
+              <strong>Courage</strong> to change the things I can, and the{" "}
+              <strong>Wisdom</strong> to know the difference.
             </p>
             <footer class="blockquote-footer">
-              <cite title="Source Title">앙투안 드 생텍쥐페리</cite>
+              <cite title="Source Title">Sernity Prayer</cite>
             </footer>
           </blockquote>
         </Container>
