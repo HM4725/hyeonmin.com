@@ -16,9 +16,9 @@
   {
     "chapter": 2,
     "title": "데이터 다루기",
-    "pdf": "",
-    "code": "",
-    "uploaded": "예정"
+    "pdf": "https://data.hyeonmin.com/class/python/pdf/ch2.pdf",
+    "code": "https://data.hyeonmin.com/class/python/src/ch2.zip",
+    "uploaded": "2023-12-06"
   },
   {
     "chapter": 3,
