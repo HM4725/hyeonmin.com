@@ -26,5 +26,12 @@
     "pdf": "",
     "code": "",
     "uploaded": "예정"
+  },
+  {
+    "chapter": "-",
+    "title": "반복문 부수기",
+    "pdf": "https://data.hyeonmin.com/class/python/pdf/loop.pdf",
+    "code": "https://data.hyeonmin.com/class/python/src/loop.zip",
+    "uploaded": "2023-12-16"
   }
 ]
