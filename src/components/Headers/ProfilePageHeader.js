@@ -11,6 +11,7 @@ import awards from "../../assets/json/awards.json"
 import projects from "../../assets/json/projects.json"
 
 function ProfilePageHeader() {
+  const email = "4725hmc@gmail.com";
   return (
     <>
       <div
@@ -27,7 +28,7 @@ function ProfilePageHeader() {
             <img alt="..." src="https://data.hyeonmin.com/img/profile-1x1.jpg"></img>
           </div>
           <h3 className="title">Hyeonmin Lee</h3>
-          <p className="category">software architect / educator</p>
+          <address className="domain">Contact: <a href={"mailto:" + email}>{email}</a></address>
           <div className="content">
             <div className="social-description" id="tooltip-gpa">
               <h2>4.02</h2>
