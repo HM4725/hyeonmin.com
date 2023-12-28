@@ -6,7 +6,8 @@
     "host": "해병대사령부",
     "item": "딥러닝 기반 음성 데이터 추출 및 정제 솔루션",
     "imageSrc": "https://data.hyeonmin.com/img/award-2nd-rokmc-venture.jpeg",
-    "logoSrc": "https://data.hyeonmin.com/img/rokmc-logo.jpeg"
+    "logoSrc": "https://data.hyeonmin.com/img/rokmc-logo.jpeg",
+    "tooltip": "창업경진대회 상장 사진"
   },
   {
     "date": "2019-10-18",
@@ -15,6 +16,7 @@
     "host": "한양대학교",
     "item": "딥러닝 기반 TTS (Text-To-Speech) 서비스",
     "imageSrc": "https://data.hyeonmin.com/img/award-24th-hyu-venture.jpeg",
-    "logoSrc": "https://data.hyeonmin.com/img/hanyang-uni-logo.jpeg"
+    "logoSrc": "https://data.hyeonmin.com/img/hanyang-uni-logo.jpeg",
+    "tooltip": "벤처창업대회 상장 사진"
   }
 ]

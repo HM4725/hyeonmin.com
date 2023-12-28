@@ -4,6 +4,7 @@
     "company": "(주)노이랩",
     "link": "https://noilab.kr",
     "logoSrc": "https://data.hyeonmin.com/img/noi-logo.png",
+    "tooltip": "노이랩 홈페이지",
     "incharge": "개발팀장",
     "role": [
       "스포츠 인지 훈련용 웹 어플리케이션 개발",
@@ -16,6 +17,7 @@
     "company": "해병대사령부",
     "link": "https://www.rokmc.mil.kr:10005/index.do",
     "logoSrc": "https://data.hyeonmin.com/img/rokmc-logo.jpeg",
+    "tooltip": "해병대 홈페이지",
     "incharge": "소프트웨어개발병",
     "role": [
       "해병대사령부 웹사이트 유지보수",
@@ -29,6 +31,7 @@
     "company": "(주)라이언로켓",
     "link": "https://www.lionrocket.ai/",
     "logoSrc": "https://data.hyeonmin.com/img/lionrocket-logo.jpeg",
+    "tooltip": "라이언로켓 홈페이지",
     "incharge": "머신러닝팀 인턴",
     "role": ["다중화자/다중언어 TTS 모델 개발"],
     "skillset": "Python, PyTorch, Pandas"
@@ -38,6 +41,7 @@
     "company": "한양대학교 컴퓨터보안연구실",
     "link": "http://securitylab.hanyang.ac.kr/wiki/index.php/Main",
     "logoSrc": "https://data.hyeonmin.com/img/hanyang-uni-logo.jpeg",
+    "tooltip": "컴퓨터보안연구실 홈페이지",
     "incharge": "인턴",
     "role": [
       "하드웨어를 활용한 실행코드 은닉 기법 조사 및 구현",

@@ -16,6 +16,7 @@ import {
   ModalHeader,
   ModalBody,
   Badge,
+  UncontrolledTooltip
 } from "reactstrap";
 
 // core components
@@ -127,15 +128,19 @@ function ProfilePage() {
                 <Row>
                   <Col xs="auto">
                     <Button
+                      id="btn-education-hyu"
                       className="btn-round btn-icon"
                       href="https://www.hanyang.ac.kr/"
                       target="_blank"
                     >
                       <img
-                        alt="hanyang-uni-logo"
+                        alt="한양대_로고"
                         src="https://data.hyeonmin.com/img/hanyang-uni-logo.jpeg"
                       />
                     </Button>
+                    <UncontrolledTooltip delay={0} placement="right" target="btn-education-hyu">
+                      <span>한양대학교 홈페이지</span>
+                    </UncontrolledTooltip>
                   </Col>
                   <Col className="px-0">
                     <small>2017.03 ~ 2024.02</small>
@@ -191,12 +196,16 @@ function ProfilePage() {
                     <Row>
                       <Col xs="auto">
                         <Button
+                          id={"btn-career-" + idx}
                           className="btn-round btn-icon"
                           href={job.link}
                           target="_blank"
                         >
-                          <img alt={`${job.company}_로고`} src={job.logoSrc} />
+                          <img alt="회사_로고" src={job.logoSrc} />
                         </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-career-" + idx}>
+                          <span>{job.tooltip}</span>
+                        </UncontrolledTooltip>
                       </Col>
                       <Col className="px-0">
                         <small>{job.period}</small>
@@ -269,12 +278,16 @@ function ProfilePage() {
                     <Row>
                       <Col xs="auto">
                         <Button
+                          id={"btn-project-" + idx}
                           className="btn-round btn-icon"
                           href={project.link}
                           target="_blank"
                         >
                           <img alt="프로젝트_로고" src={project.logoSrc} />
                         </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-project-" + idx}>
+                          <span>{project.tooltip}</span>
+                        </UncontrolledTooltip>
                       </Col>
                       <Col className="px-0">
                         <small>{project.period}</small>
@@ -341,12 +354,16 @@ function ProfilePage() {
                     <Row>
                       <Col xs="auto">
                         <Button
+                          id={"btn-outsourcing-" + idx}
                           className="btn-round btn-icon"
                           href={job.link}
                           target="_blank"
                         >
-                          <img alt={`${job.company}_로고`} src={job.logoSrc} />
+                          <img alt="외주_로고" src={job.logoSrc} />
                         </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-outsourcing-" + idx}>
+                          <span>{job.tooltip}</span>
+                        </UncontrolledTooltip>
                       </Col>
                       <Col className="px-0">
                         <small>{job.period}</small>
@@ -429,13 +446,17 @@ function ProfilePage() {
                     <Row>
                       <Col xs="auto">
                         <Button
+                          id={"btn-award-" + idx}
                           className="btn-round btn-icon"
                           onClick={(e) => {
                             toggleAwardModal(idx);
                           }}
                         >
-                          <img alt="프로젝트_로고" src={award.logoSrc} />
+                          <img alt="수상_로고" src={award.logoSrc} />
                         </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-award-" + idx}>
+                          <span>{award.tooltip}</span>
+                        </UncontrolledTooltip>
                       </Col>
                       <Col className="px-0">
                         <small>{award.date}</small>
@@ -520,12 +541,16 @@ function ProfilePage() {
                     <Row>
                       <Col xs="auto">
                         <Button
+                          id={"btn-paper-" + idx}
                           className="btn-round btn-icon"
                           href={paper.link}
                           target="_blank"
                         >
                           <img alt="학회_로고" src={paper.logoSrc} />
                         </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-paper-" + idx}>
+                          <span>{paper.tooltip}</span>
+                        </UncontrolledTooltip>
                       </Col>
                       <Col className="px-0">
                         <small>{paper.date}</small>

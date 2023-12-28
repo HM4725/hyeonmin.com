@@ -5,6 +5,7 @@
     "company": "(주)블루디블루",
     "link": "https://www.bludi-blu.com/",
     "logoSrc": "https://data.hyeonmin.com/img/bludiblu-logo.jpg",
+    "tooltip": "블루디블루 쇼핑몰",
     "incharge": "프론트엔드",
     "role": ["SPA 웹사이트 개발", "CI/CD 파이프라인 구성"],
     "skillset": "Vue.js, Jenkins"
@@ -15,6 +16,7 @@
     "company": "(주)블루디블루",
     "link": "https://www.bludi-blu.com/",
     "logoSrc": "https://data.hyeonmin.com/img/bludiblu-logo.jpg",
+    "tooltip": "블루디블루 쇼핑몰",
     "incharge": "프론트엔드",
     "role": ["NHN 커머스 고도몰5 기반의 온라인 쇼핑몰 웹 디자인 변경"],
     "skillset": "HTML, CSS, JS, PHP"
