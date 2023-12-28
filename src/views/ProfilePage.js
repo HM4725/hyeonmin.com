@@ -334,98 +334,6 @@ function ProfilePage() {
             </Card>
 
             <Card
-              id="outsourcing"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="elevation-0 my-4"
-            >
-              <CardBody>
-                <CardTitle tag="h3" className="text-center font-weight-bold">
-                  <sup className="mr-2">
-                    <i className="fas fa-hashtag"></i>
-                  </sup>
-                  외주{" "}
-                  <Badge color="default" pill>
-                    {outsourcing.length}
-                  </Badge>
-                </CardTitle>
-                {outsourcing.map((job, idx) => (
-                  <article key={idx} className="mb-4">
-                    <Row>
-                      <Col xs="auto">
-                        <Button
-                          id={"btn-outsourcing-" + idx}
-                          className="btn-round btn-icon"
-                          href={job.link}
-                          target="_blank"
-                        >
-                          <img alt="외주_로고" src={job.logoSrc} />
-                        </Button>
-                        <UncontrolledTooltip delay={0} placement="right" target={"btn-outsourcing-" + idx}>
-                          <span>{job.tooltip}</span>
-                        </UncontrolledTooltip>
-                      </Col>
-                      <Col className="px-0">
-                        <small>{job.period}</small>
-                        <CardSubtitle tag="h4">{job.title}</CardSubtitle>
-                      </Col>
-                    </Row>
-                    <Table>
-                      <tbody>
-                        <tr>
-                          <th
-                            scope="row"
-                            width={80}
-                            className="font-weight-normal"
-                          >
-                            요청
-                          </th>
-                          <td>{job.company}</td>
-                        </tr>
-                        <tr>
-                          <th
-                            scope="row"
-                            width={80}
-                            className="font-weight-normal"
-                          >
-                            담당
-                          </th>
-                          <td>{job.incharge}</td>
-                        </tr>
-                        <tr>
-                          <th
-                            scope="row"
-                            width={80}
-                            className="font-weight-normal"
-                          >
-                            역할
-                          </th>
-                          <td className="keep-word">
-                            <ul>
-                              {job.role.map((r, idx) => (
-                                <li key={idx}>- {r}</li>
-                              ))}
-                            </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th
-                            scope="row"
-                            width={80}
-                            className="font-weight-normal"
-                          >
-                            사용기술
-                          </th>
-                          <td className="keep-word">{job.skillset}</td>
-                        </tr>
-                      </tbody>
-                    </Table>
-                  </article>
-                ))}
-              </CardBody>
-            </Card>
-
-            <Card
               id="award"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -595,6 +503,99 @@ function ProfilePage() {
                 ))}
               </CardBody>
             </Card>
+
+            <Card
+              id="outsourcing"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="elevation-0 my-4"
+            >
+              <CardBody>
+                <CardTitle tag="h3" className="text-center font-weight-bold">
+                  <sup className="mr-2">
+                    <i className="fas fa-hashtag"></i>
+                  </sup>
+                  외주{" "}
+                  <Badge color="default" pill>
+                    {outsourcing.length}
+                  </Badge>
+                </CardTitle>
+                {outsourcing.map((job, idx) => (
+                  <article key={idx} className="mb-4">
+                    <Row>
+                      <Col xs="auto">
+                        <Button
+                          id={"btn-outsourcing-" + idx}
+                          className="btn-round btn-icon"
+                          href={job.link}
+                          target="_blank"
+                        >
+                          <img alt="외주_로고" src={job.logoSrc} />
+                        </Button>
+                        <UncontrolledTooltip delay={0} placement="right" target={"btn-outsourcing-" + idx}>
+                          <span>{job.tooltip}</span>
+                        </UncontrolledTooltip>
+                      </Col>
+                      <Col className="px-0">
+                        <small>{job.period}</small>
+                        <CardSubtitle tag="h4">{job.title}</CardSubtitle>
+                      </Col>
+                    </Row>
+                    <Table>
+                      <tbody>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            요청
+                          </th>
+                          <td>{job.company}</td>
+                        </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            담당
+                          </th>
+                          <td>{job.incharge}</td>
+                        </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            역할
+                          </th>
+                          <td className="keep-word">
+                            <ul>
+                              {job.role.map((r, idx) => (
+                                <li key={idx}>- {r}</li>
+                              ))}
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th
+                            scope="row"
+                            width={80}
+                            className="font-weight-normal"
+                          >
+                            사용기술
+                          </th>
+                          <td className="keep-word">{job.skillset}</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                  </article>
+                ))}
+              </CardBody>
+            </Card>
+
           </Container>
         </div>
         <DefaultFooter />
