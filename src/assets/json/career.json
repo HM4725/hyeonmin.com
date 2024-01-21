@@ -1,5 +1,17 @@
 [
   {
+    "period": "2023.01 ~ 현재",
+    "company": "(주)카카오",
+    "link": "https://www.kakaocorp.com",
+    "logoSrc": "https://data.hyeonmin.com/img/kakaocorp-logo.jpeg",
+    "tooltip": "카카오 홈페이지",
+    "incharge": "인턴",
+    "role": [
+      "데이터베이스 엔지니어링"
+    ],
+    "skillset": "MySQL"
+  },
+  {
     "period": "2022.07 ~ 2023.11",
     "company": "(주)노이랩",
     "link": "https://noilab.kr",
